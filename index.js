@@ -9,7 +9,11 @@ module.exports = function() {
 		"cerus-promise"
 	];
 
-	var hash = require("./lib/hash")(cerus);
+	var hash;
+
+	self.init_ = function(cerus_) {
+		hash = require("./lib/hash")(cerus_);
+	}
 
 	self.hash = function() {
 		return hash;
