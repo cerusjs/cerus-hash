@@ -1,0 +1,19 @@
+{
+	"name": "cerus-hash",
+	"version": "0.0.1",
+	"description": "The hash plugin for CerusJS",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cerusjs/cerus-hash.git"
+	},
+	"author": "cerusjs",
+	"bugs": {
+		"url": "https://github.com/cerusjs/cerus-hash/issues"
+	},
+	"scripts": {},
+	"homepage": "https://github.com/cerusjs/cerus-hash",
+	"dependencies": {
+		"node-rsa": "^0.4.2"
+	}
+}
