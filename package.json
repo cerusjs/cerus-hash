@@ -1,6 +1,6 @@
 {
 	"name": "cerus-hash",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "The hash plugin for CerusJS",
 	"main": "index.js",
 	"repository": {
