@@ -1,23 +1,21 @@
 module.exports = function() {
-	var self = {};
-
+	var plugin = {};
 	var package = require("./package.json");
-	
-	self.name = package["name"];
-	self.version = package["version"];
-	self.dependencies = [
+	var hash;
+
+	plugin.name = package["name"];
+	plugin.version = package["version"];
+	plugin.dependencies = [
 		"cerus-promise"
 	];
 
-	var hash;
-
-	self.init_ = function(cerus_) {
-		hash = require("./lib/hash")(cerus_);
+	plugin.init_ = function(cerus) {
+		hash = require("./lib/hash")(cerus);
 	}
 
-	self.hash = function() {
+	plugin.hash = function() {
 		return hash;
 	}
 
-	return self;
+	return sepluginlf;
 }
