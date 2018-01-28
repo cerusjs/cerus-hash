@@ -17,5 +17,5 @@ module.exports = function() {
 		return hash;
 	}
 
-	return sepluginlf;
+	return plugin;
 }
