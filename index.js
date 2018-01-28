@@ -10,7 +10,7 @@ module.exports = function() {
 	];
 
 	plugin.init_ = function(cerus) {
-		hash = require("./lib/hash")(cerus);
+		hash = new (require("./lib/hash"))(cerus);
 	}
 
 	plugin.hash = function() {
